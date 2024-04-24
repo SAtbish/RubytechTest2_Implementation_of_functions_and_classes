@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  tasks:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    command: ["python", "main.py"]
